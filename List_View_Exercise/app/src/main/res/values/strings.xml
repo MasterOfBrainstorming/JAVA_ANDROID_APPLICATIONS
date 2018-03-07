@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ListViewExercise</string>
+    <string name="dummydata">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapen. Muis varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit."</string>
+</resources>
