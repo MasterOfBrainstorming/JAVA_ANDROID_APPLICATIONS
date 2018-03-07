@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">K1521_Eka_Softa</string>
+    <string name="hello_world_portrait">Terve pystytasoinen maailma</string>
+    <string name="hello_world_land">Terve vaakatasoinen maailma?</string>
+</resources>
