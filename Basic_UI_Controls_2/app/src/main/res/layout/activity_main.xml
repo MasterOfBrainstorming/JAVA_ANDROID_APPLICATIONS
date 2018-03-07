@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fi.jamk.basicuicontrols2.MainActivity">
+
+    <GridLayout
+        android:id="@+id/grid_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_text"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:textSize="20dp"
+            />
+        <AutoCompleteTextView
+            android:id="@+id/login_name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/password_text"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:inputType="textPassword"
+            />
+        <Button
+            android:id="@+id/login_button"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:text="@string/log_text"
+            android:onClick="ButtonClicked"/>
+    </GridLayout>
+
+
+</android.support.constraint.ConstraintLayout>
