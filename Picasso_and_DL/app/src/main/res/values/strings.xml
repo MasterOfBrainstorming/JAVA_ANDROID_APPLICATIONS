@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DownloadingImages</string>
+    <string name="hintt">URL here please....</string>
+    <string name="loadimg">Load image</string>
+</resources>
