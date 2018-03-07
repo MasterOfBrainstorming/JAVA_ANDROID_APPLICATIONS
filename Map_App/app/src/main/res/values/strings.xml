@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Map App</string>
+    <string name="stringstring">Insert (lat,lon)</string>
+    <string name="buttonbutton">Show a Map</string>
+</resources>

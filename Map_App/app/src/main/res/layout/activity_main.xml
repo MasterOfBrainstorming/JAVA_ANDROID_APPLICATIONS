@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fi.jamk.mapapp.MainActivity"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="4"
+        android:columnCount="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stringstring"/>
+        <EditText
+            android:id="@+id/latitude"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/longtitude"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="@string/buttonbutton"
+            android:onClick="showMap"
+            />
+    </GridLayout>
+
+
+</android.support.constraint.ConstraintLayout>
